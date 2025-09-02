@@ -1,0 +1,5 @@
+include README.md
+include LICENSE
+include pyproject.toml
+recursive-include singleton_decorator-stubs *.pyi
+include singleton_decorator-stubs/py.typed
