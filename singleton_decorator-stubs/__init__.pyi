@@ -23,22 +23,6 @@ def singleton(cls: None = None) -> Callable[[Type[T]], Type[T]]:
     """
     ...
 
-def singleton(cls: Type[T] | None = None) -> Type[T] | Callable[[Type[T]], Type[T]]:
-    """
-    Singleton decorator that preserves the original class type.
-
-    Can be used with or without parentheses:
-    @singleton
-    class MyClass: ...
-
-    @singleton()
-    class MyClass: ...
-
-    The decorated class will maintain its original type signature
-    and all methods will be properly typed.
-    """
-    ...
-
 class SingletonMeta(type):
     """
     Metaclass for singleton pattern.
