@@ -2,6 +2,7 @@
 
 Type stubs for the `singleton_decorator` package to provide proper type hints and fix Pylance type checking issues.
 
+![PyPi](https://img.shields.io/badge/pypi-%23ececec.svg?style=for-the-badge&logo=pypi&logoColor=1f73b7) Get it from [Pypi](https://pypi.org/project/types-singleton-decorator/)
 ## Problem Solved
 
 When using the `singleton_decorator` decorator, Pylance shows the error:
